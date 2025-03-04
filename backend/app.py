@@ -7,24 +7,24 @@ CORS(app, resources={r"/api/*": {"origins": ["http://localhost:5173", "http://12
 
 metro_network = {
     "stations": {
-        "A": {"name": "Central Station", "coordinates": [40.7128, -74.0060]},
-        "B": {"name": "North Terminal", "coordinates": [40.7200, -74.0100]},
-        "C": {"name": "East Junction", "coordinates": [40.7150, -73.9950]},
-        "D": {"name": "South Gate", "coordinates": [40.7050, -74.0070]},
-        "E": {"name": "West Plaza", "coordinates": [40.7130, -74.0200]},
-        "F": {"name": "University Stop", "coordinates": [40.7250, -74.0050]},
-        "G": {"name": "Market Square", "coordinates": [40.7180, -73.9900]}
+        "A": {"name": "Chhatrapati Shivaji Maharaj Terminus", "coordinates": [18.9402, 72.8355]},
+        "B": {"name": "Mumbai Central", "coordinates": [18.9696, 72.8194]},
+        "C": {"name": "Dadar", "coordinates": [19.0186, 72.8441]},
+        "D": {"name": "Bandra", "coordinates": [19.0544, 72.8402]},
+        "E": {"name": "Andheri", "coordinates": [19.1197, 72.8468]},
+        "F": {"name": "Borivali", "coordinates": [19.2290, 72.8570]},
+        "G": {"name": "Thane", "coordinates": [19.2183, 72.9781]}
     },
     "connections": [
-        {"from": "A", "to": "B", "time": 5, "cost": 2.0, "distance": 1.2},
-        {"from": "A", "to": "C", "time": 7, "cost": 2.5, "distance": 1.5},
-        {"from": "A", "to": "E", "time": 4, "cost": 1.5, "distance": 1.0},
-        {"from": "B", "to": "F", "time": 6, "cost": 2.0, "distance": 1.3},
-        {"from": "C", "to": "D", "time": 5, "cost": 1.5, "distance": 1.1},
-        {"from": "C", "to": "G", "time": 3, "cost": 1.0, "distance": 0.8},
-        {"from": "D", "to": "E", "time": 8, "cost": 2.5, "distance": 1.7},
-        {"from": "E", "to": "F", "time": 10, "cost": 3.0, "distance": 2.0},
-        {"from": "F", "to": "G", "time": 9, "cost": 2.5, "distance": 1.9}
+        {"from": "A", "to": "B", "time": 5, "cost": 150.0, "distance": 1.2},
+        {"from": "A", "to": "C", "time": 7, "cost": 200.0, "distance": 1.5},
+        {"from": "A", "to": "E", "time": 4, "cost": 120.0, "distance": 1.0},
+        {"from": "B", "to": "F", "time": 6, "cost": 150.0, "distance": 1.3},
+        {"from": "C", "to": "D", "time": 5, "cost": 120.0, "distance": 1.1},
+        {"from": "C", "to": "G", "time": 3, "cost": 80.0, "distance": 0.8},
+        {"from": "D", "to": "E", "time": 8, "cost": 200.0, "distance": 1.7},
+        {"from": "E", "to": "F", "time": 10, "cost": 240.0, "distance": 2.0},
+        {"from": "F", "to": "G", "time": 9, "cost": 200.0, "distance": 1.9}
     ]
 }
 

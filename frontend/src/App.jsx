@@ -50,7 +50,7 @@ const MapNavigator = () => {
       case "time":
         return "minutes";
       case "cost":
-        return "$";
+        return "₹";
       case "distance":
         return "km";
       default:
@@ -270,7 +270,7 @@ const MapNavigator = () => {
                           |
                           <span className="text-green-600">
                             {" "}
-                            ${segment.cost}
+                            ₹{segment.cost}
                           </span>{" "}
                           |
                           <span className="text-blue-600">
